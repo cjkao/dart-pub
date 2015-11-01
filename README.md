@@ -1,3 +1,7 @@
+# Pub customization
+dart --snapshot=bin/pub.snapshot bin/pub.dart
+
+
 Pub is the package manager for Dart.
 
 # Contributing to pub

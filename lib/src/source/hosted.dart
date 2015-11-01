@@ -31,8 +31,8 @@ class HostedSource extends CachedSource {
   static String get defaultUrl {
     var url = io.Platform.environment["PUB_HOSTED_URL"];
     if (url != null) return url;
-
-    return "https://pub.dartlang.org";
+    return "http://localhost:1234";
+    //return "https://pub.dartlang.org";
   }
 
   /// Downloads a list of all versions of a package that are available from the
